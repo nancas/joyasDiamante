@@ -1,0 +1,524 @@
+body{
+    margin: 10px;
+    font-family: s;
+    font-family: habibi;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+
+h1{
+    margin-right: 12px;
+    /* agregar efectos */
+}
+
+
+/* ---------------NAV PRINCIPAL --------------*/
+
+.contNavPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.contHijocontNavPrincipal{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    font-size: 23px;
+}
+
+.contNavPrincipal a {
+    font-size: 17px;
+}
+
+
+/* ---------------Segundo Body --------------*/
+
+.SegundoBody{
+    display: flex;
+    margin: 0;
+
+}
+
+.contHijoSegundoBody{
+    width: 84.5%;
+}
+
+
+/* ---------------ASIDE--------------*/
+
+aside{
+    width: 13%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed; 
+    right: 0; 
+    border-radius: 15px;
+    padding-top: 50px;
+}
+
+/* ---------------CONTENEDOR 1 --------------*/
+
+.contFocoPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    justify-content: center;
+    
+    background-image: url('fondo.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.slogan{
+    padding: 0 550px 0 100px;
+}
+
+
+h2{
+    font-size: 30px;
+    margin: 0;
+}
+
+.botonProductos{
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(256, 256, 256, 0.3);
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* ---------------NAV SECUNDARIO --------------*/
+
+.contNavSecundario{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.aSecundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px;
+    font-size: 16px;
+}
+
+
+
+/* ---------------CONTNEDOR PRODUCTO --------------*/
+
+.ContPrincipalProductos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.imagenProducto{
+    width: 100%;
+    height: 380px;
+    border-radius: 0px;
+    border-radius: 15PX;
+}
+
+.contHijocontProducto{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contProducto{
+    width: 25%;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+}
+
+.contProducto:hover{
+    transform: scale(1.03); 
+    transition: transform 0.5s ease-in-out;
+}
+
+
+/* ---------------CONTNEDOR SECUNDARIO --------------*/
+
+.contSecundario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.contHijocontSecundario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.contNietocontSecundario{
+    margin-right: 35px;
+    margin-left: 35px;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.contHijocontSecundario h3{
+    animation: heartbeat 4s infinite ease-in-out;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1.05);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    90% {
+        transform: scale(1.05);
+    }
+}
+
+
+/* ---------------CONTNEDOR TERCERO --------------*/
+
+.contTercero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 180px;
+}
+
+
+.mapa{
+    width: 350px;
+    height: 500px;
+    border-radius: 15px;
+    margin-right: 50px;
+}
+
+/* ---------------FOOTER --------------*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6EAF8 ;
+    padding: 20px;
+    width: 81.8%;
+    margin-top: 50px;
+    color: white;
+
+    /* background-image: url(fondo.jpg); */
+    background-image: url(https://images.pexels.com/photos/3098977/pexels-photo-3098977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    border-radius: 15px;
+    background-position:top;
+    background-size: cover;
+
+
+}
+
+.footerLogo{
+    font-size: 40px;
+    color: white;
+}
+
+/*************************************** PAGINA PRODUCTOS*************************************** */
+
+
+.contLogo{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    height: 380px;
+    background-image: url(https://images.pexels.com/photos/3098977/pexels-photo-3098977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    border-radius: 15px;
+    background-position:top;
+    background-size: cover;
+
+}
+
+.imagenProductoP{
+    width: 100%;
+    height: 280px;
+    border-radius: 0px;
+    border-radius: 15PX;
+    
+}
+
+.asaidP{
+    text-align: center;
+}
+
+.botonCompra{
+    background: RGB(168, 194, 224, 0.8)  ;
+    padding: 10px;
+    width: 70px;
+    border-radius: 15px;
+    /* font-weight: bold; */
+}
+
+.botonCompra:hover{
+    background-color:RGB(168, 194, 224, 0.5) ;
+}
+
+.Resena{
+    background-color: #e8ebed;
+    padding: 10px;
+    width: 90px;
+    border-radius: 15px;
+}
+
+.Resena:hover{
+    background-color:RGB(232, 235, 237, 0.5) ;
+}
+
+.botones{
+    display: flex;
+}
+
+.diamante{
+    animation: heartbeat 4s infinite ease-in-out;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1.05);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    90% {
+        transform: scale(1.05);
+    }
+}
+
+
+/*************************************** CARRITO *************************************** */
+
+.contHijoCarrtio{
+    display: flex;
+    flex-direction: column;
+}
+
+.contCarrtio{
+    display: flex;
+    background-color:RGB(168, 194, 224, 0.45);
+    border-radius: 15px;   
+    padding: 20px;
+
+
+}
+
+.ContFormDatosUsuario{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px;
+    border: none;
+}
+
+.FormDatosUsuario{
+    height: 30px;
+    border-radius: 15px;
+    padding: 8px 10px;
+    width: 100%;
+    margin: 0px 30px 10px 0px;
+    padding-left: 20px;
+    border: none;
+    
+}
+
+.bodyCarrito{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.contHIjoPrueba{
+    display: flex;
+
+}
+
+.contPrueba{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.BotonCarrito{
+    height: 35px;
+    border-radius: 15px;
+    padding: 8px 10px;
+    margin: 0px 30px 10px 0px;
+    border: none;
+    width: 2550px;
+    background-color: White;
+}
+
+.BotonCarrito:hover{
+    cursor: pointer;
+}
+
+/*************************************** Historia *************************************** */
+
+.contPadre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contPadre img{
+    height: 580px;
+    border-radius: 15px;
+}
+
+.contHistoria{
+    padding: 50px;
+}
+
+/*************************************** ELABORACIÓN *************************************** */
+
+.contPadreElaboracion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+
+}
+
+.contPadreElaboracion img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.contPadreElaboracion h2{
+    font-size: 20px;
+}
+
+.contHijoElaboracion{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 50px;
+}
+
+.contAbueloElaboracion{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contVideoElaboracion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contHijocontNavPrincipal img{
+    animation: float 4s infinite ease-in-out;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.contPadreElaboracion img {
+    animation: blink 4s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+
+
+
+/*************************************** RESEÑA *************************************** */
+
+.contpadreresena{
+    width: 98.5vw;
+    display: flex;
+}
+
+.contResena{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    width: 33.33%;
+}
+
+.conthijoresena{
+    margin-left: 20px;
+    
+}
+
+.contResena img{
+    width: 180px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.contResena h2{
+    font-size: 20px;
+}
+
+.contabueloresena{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
